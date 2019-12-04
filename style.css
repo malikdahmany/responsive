@@ -1,0 +1,22 @@
+@media screen and (max-width: 300px) {
+
+    #medium, #large {
+    }
+    body { background-color: red; }
+
+}
+
+@media screen and (min-width: 300px) {
+    #small{width: 66%}
+    #medium{width: 33%}
+
+    body { background-color: green; }
+
+    }
+
+
+@media screen and (min-width: 768px) {
+
+    #large {display: block}
+    body { background-color: blue; }
+}
